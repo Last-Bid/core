@@ -1,0 +1,14 @@
+Frontend // Tech Lead (Bill)
+All client side code goes here
+
+Currently using React + Javascript ES6 for the Frontend.
+Including Bootstrap and Material UI.
+
+Go into the frontend folder and enter
+`npm start`
+This will start up the frontend at localhost:3000 on your machine
+
+Backend // Tech Lead (Jordan)
+All backend code goes here
+
+Python
