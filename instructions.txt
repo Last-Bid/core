@@ -2,7 +2,8 @@ Frontend // Tech Lead (Bill)
 All client side code goes here
 
 Currently using React + Javascript ES6 for the Frontend.
-Including Bootstrap and Material UI.
+UI Library - Material UI
+State Management - Redux
 
 Go into the frontend folder and enter
 `npm start`
