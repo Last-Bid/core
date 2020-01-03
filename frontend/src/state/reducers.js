@@ -1,29 +1,32 @@
-
-// (state, action) => new state
-// action
-function buyCake() {
-    return {
-        type : 'BUY_CAKE',
-        info : 'A action'
-    }
-}
+import './actions'
 
 // initial state
-const cakeState = {
-    cakes : 10
+const initialState = {
+    count: 0,
+    data: '',
+    error: '',
 };
 
-const reducer = (state = cakeState, action) => {
-    switch(action.type) {
-        case 'BUY_CAKE':
+const fetchProducts = (state = initialState, action) => {
+    switch (action.type) {
+        case 'FETCH_PRODUCT_REQUEST':
             return {
-                ...state, // make a copy of state and only update - spread operator
-                cakes : state.cakes - 1
+                ...initialState,
+                data: "LOADING",
             };
-            // let objClone = { ...obj }
+        case 'FETCH_PRODUCT_FAILURE':
+            return {
+                ...initialState,
+                data: "LOADING",
+            };
+        case 'FETCH_PRODUCT_SUCCESS':
+            return {
+                ...initialState,
+                data: 'SUCCESS'
+            };
         default:
-            return state;
+            return state
     }
 };
 
-const store = createStore(reducer);
+export default fetchProducts

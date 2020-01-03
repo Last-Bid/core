@@ -14,3 +14,28 @@ Store -> App -> Action -> Reducer -> Store
 getState()
 dispatch(action)
 subscribe(listener)
+
+// multiple reducers
+combineReducers({
+    a : reducer_a,
+    b : reducer_b
+})
+
+createStore(combinedReducer)
+state.a to access reducer_a. eg. Auth/User/Profile reducers
+
+Middleware - Extend Redux ( Adds extra things between action dispatch and it reaching the reducer ) For logging etc.
+Example - Redux Logger
+Redux Thunk // lets action creator return a function instead of action obj
+
+## Fetch Products from API and save it in the State
+State = {
+    loading : true, // Flag to determine if data is being fetched
+    data : [], // Products
+    error : '', // Error
+}
+
+## Presentational and Container Components
+Appearance vs Work
+Presentational - How things Look - Not Redux Aware
+Container - Data fetching, state update - Redux Aware

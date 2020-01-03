@@ -1,26 +1,25 @@
 /*
  * action types
  */
-export const ADD_TODO = 'ADD_TODO'
-export const TOGGLE_TODO = 'TOGGLE_TODO'
-export const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER'
-/*
- * other constants
- */
-export const VisibilityFilters = {
-    SHOW_ALL: 'SHOW_ALL',
-    SHOW_COMPLETED: 'SHOW_COMPLETED',
-    SHOW_ACTIVE: 'SHOW_ACTIVE'
-}
+export const FETCH_PRODUCTS_REQUEST = 'FETCH_PRODUCTS_REQUEST';
+export const FETCH_PRODUCTS_SUCCESS = 'FETCH_PRODUCTS_SUCCESS';
+export const FETCH_PRODUCTS_FAILURE = 'FETCH_PRODUCTS_FAILURE';
+
 /*
  * action creators
  */
-export function addTodo(text) {
-    return { type: ADD_TODO, text }
+export function fetchProductsRequest(data) {
+    return {
+        type: FETCH_PRODUCTS_REQUEST,
+        data : data }
 }
-export function toggleTodo(index) {
-    return { type: TOGGLE_TODO, index }
+export function fetchProductsSuccess(data) {
+    return {
+        type: FETCH_PRODUCTS_SUCCESS,
+        data : data }
 }
-export function setVisibilityFilter(filter) {
-    return { type: SET_VISIBILITY_FILTER, filter }
+export function fetchProductsFailure(data) {
+    return {
+        type: FETCH_PRODUCTS_FAILURE,
+        data : data }
 }
