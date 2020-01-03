@@ -1,0 +1,16 @@
+## Redux
+
+Store - Reducer - Action
+(State) - (Interprets Action) - (Action)
+
+## Three Principles
+1) State is stored in an object tree within a single store
+2) Emit an action (object describing) to change state
+3) Pure reducers (functions) that change state based on actions
+
+Store -> App -> Action -> Reducer -> Store
+
+// store
+getState()
+dispatch(action)
+subscribe(listener)
