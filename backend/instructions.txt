@@ -1,1 +1,19 @@
 Put all your backend related code here
+
+Any relational database with python as the scripting language. There should be CORS enabled API to interface with the frontend
+Any models and controllers can be decided by you
+
+Sample Endpoints for updating a transaction
+
+# Flow
+Customer Purchases a Product
+We need to log. The customer. The product. The transaction
+
+eg. End points like this should exist further down the line - Recommend using Swagger/Serverless with AWS API Gateway
+/orders
+- POST (creates/updates an order) 201/200
+- GET  (gets an order/orders) 200
+      /{id}
+      - GET (get an order) 200
+      - POST (update an order) 201/200
+      - DELETE (removes an order) 204 on success

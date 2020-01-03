@@ -1,7 +1,10 @@
-## Project Snipe
+# PROJECT SNIPE
 
-Courtesy of our Co-Founder Jordan who wanted to name this project XXX-SNIPE or SNIPE-XXX. Since we didn't go ahead with
-having snipe in the actual project name. We've decided to name the codeword for the pre-release project to PROJECT SNIPE
+This project aims to create an engaging e-commerce platform to enable online shoppers to have a better experience shopping online.
+The platform will be powered by time-limited product listings that will expire within 30 minutes. Our intelligent code will scan and retrieve
+listings from popular online auction websites such as TradeMe, Amazon or Ebay and present the deals in an easy to consume
+appearance for the end user. The biggest priority for us is to ensure we create an amazing customer experience. By drawing inspiration from sites
+such as Wish, Massdrop and Tinder we plan to make use of the latest CX technologies.
 
 ### Our Goal
 
