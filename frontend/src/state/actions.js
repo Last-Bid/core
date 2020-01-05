@@ -11,7 +11,8 @@ export const FETCH_PRODUCTS_FAILURE = 'FETCH_PRODUCTS_FAILURE';
 export function fetchProductsRequest(data) {
     return {
         type: FETCH_PRODUCTS_REQUEST,
-        data : data }
+        data : data
+    }
 }
 export function fetchProductsSuccess(data) {
     return {
@@ -21,5 +22,6 @@ export function fetchProductsSuccess(data) {
 export function fetchProductsFailure(data) {
     return {
         type: FETCH_PRODUCTS_FAILURE,
-        data : data }
+        data : data
+    }
 }

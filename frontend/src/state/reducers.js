@@ -1,4 +1,5 @@
 import './actions'
+import { combineReducers } from "redux";
 
 // initial state
 const initialState = {
@@ -29,4 +30,8 @@ const fetchProducts = (state = initialState, action) => {
     }
 };
 
-export default fetchProducts
+const reducers = combineReducers({
+    fetchProducts
+});
+
+export default reducers;
