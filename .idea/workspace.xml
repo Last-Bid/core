@@ -2,14 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2261ecc-0443-4c39-852a-54b4c7c6100f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/core.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/instructions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/instructions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/css/fontawesome-all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/css/noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/js/breakpoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/js/browser.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/base/_page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/base/_reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_actions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/components/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/layout/_bg.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/layout/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/layout/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/layout/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/layout/_wrapper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/libs/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/libs/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/libs/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/libs/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/libs/_vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/sass/noscript.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/overlay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/pic01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/pic02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/images/pic03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp-site/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yarn/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yarn/lib/cli.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +76,15 @@
   <component name="ProjectId" id="1Vu4Qv4C9BeGZdvhw268GDgPPaG" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/temp-site/images" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\GGPC\Desktop\Github\core\temp-site\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\GGPC\Desktop\Github\core\temp-site" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,6 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578089633419</updated>
       <workItem from="1578089634722" duration="1104000" />
+      <workItem from="1578298194167" duration="3837000" />
     </task>
     <servers />
   </component>
@@ -59,7 +121,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

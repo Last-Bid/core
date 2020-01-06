@@ -7,15 +7,15 @@ import './app.css';
 function App() {
     const vals = useSelector(state => state);
     return (
-            <div className="App">
-                <p>
-                    State Values: {JSON.stringify(vals)}
-                </p>
-            </div>
+        <div className="App">
+            <p>
+                State Values: {JSON.stringify(vals)}
+            </p>
+        </div>
     );
 }
 
-// const getProducts = () => {
+// const getProducts = () => { // This will fail because oauth requires https, so we'll need to set up nginx and a staging server
 //     fetch(
 //         'https://api.tmsandbox.co.nz/v1/Listings/closing.json', {
 //             headers: new Headers({

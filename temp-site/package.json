@@ -1,0 +1,11 @@
+{
+  "name": "temp-site",
+  "version": "1.0.0",
+  "description": "temporary website for lastbid",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Bill Li",
+  "license": "ISC"
+}
