@@ -1,7 +1,24 @@
-Hey Guys, this’ll be the start of a new series of blogs I’m making about this new company I’m starting along with Jordan Rimmer. A bit about myself and my co-founder.
-I grew up in Hamilton, New Zealand. Attending St Paul’s, before later moving to Auckland to finish up my secondary education at Auckland International College and my CompSci Degree from The University of Auckland.
-I started my work in the tech field with a start up company that worked on storage software, dealing with typical start up problems and having the opportunity to wear many different hats. From provisioning IT infrastructure, QA Testing to building CI pipelines with Jenkins and later working on a team that used C/C++ to develop low level software that dealt heavily with read/write IOPS performance.
-Later, I found myself wanting to work with something closer to the consumer. I felt the need to create something in which that regular people could actually use. So I quit my job, and began teaching myself full-stack web development full time and very quickly I found myself being offered a job as a Full-Stack Developer, which I’m currently still doing.
-I had a dream, it’s all I ever wanted. Is to create something tangible, to say that I own this and this business i’m starting is my opportunity to show that. I plan on documenting my progress here for everyone to follow along, whether it ends up as a success or failure.
-We’re creating X for Y etc.
+// This looks like code but it really isn't
+applePies = apple + pies
+// Why are you reading this
+mincePies = bakery - pie
+// I don't know how I added this and I don't know how to get rid of it
+
+Hi everyone, I hope everyone's doing well!
+
+This'll be the start of my first series on LinkedIn, where i'll be sharing about a company that i'm building along with my co-founder Jordan in our spare time. We were talking about ideas one day when we realized we had a cool, innovative idea. So we decided to check it out and do some research.
+
+As we researched more about the market, we found the existing market cap was in the trillions and there was a real chance for our product to not only disrupt the market, for lack of a less cliche term, but perhaps even create a new category within that market. Our product in the eCommerce space as TikTok/Snapchat would be in the Video space without giving too much away.
+
+We both went to school and grew up in New Zealand. I started at Southwell in Hamilton, then I went to St Pauls for a few years before moving to Auckland to study at AIC, later I faxed my CS Degree from Auckland Uni. 
+
+I started my journey in technology at a startup specializing in GPU-accelerated exascale storage solutions where I had the opportunity to wear many hats and assume different responsibilities. From QA testing to provisioning IT infrastructure to creating CI/CD pipelines and developing complex low-level code for linux kernel-space software. 
+
+It wasn't enough for me to be impressing all my friends and family with big words and tech terms that no one outside of work, scratch that, no one outside of my team could understand. I wanted to be able to create something closer to the customer, something I could share with anyone and they could immediately understand. So I moved into the web space as a full-stack developer, armed with my big words and tech terms I quickly started teaching myself to build real solutions with real applications. 
+
+For the next few months, we will be working on our project and i'll be creating short blogs to keep you up to date with how we go.
+
+There's only two possible outcomes, we either become a huge success or we quickly burn and fail. 
+
+
 
