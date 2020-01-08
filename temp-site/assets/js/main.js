@@ -429,7 +429,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
                     default:
                         break;
                 }
-                document.getElementById(duration).innerText = time.toString();
+                let element = document.getElementById(duration);
+                element.innerText = time.toString();
+                element.classList.remove('hidden');
+                element.classList.add('animated');
+                element.classList.add('fadeInDown');
             })
         },1000)
     }
