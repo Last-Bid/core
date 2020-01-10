@@ -20,3 +20,13 @@ React (Frontend Framework)
 Redux (State Management)
 Material UI (UI Library)
 ```
+
+### Setting up HTTPS for Development
+
+authtoken : 1W89zmpCwCB9c7gbZfw45KYDQyA_5GA7961H8L5A5TP94vTgK
+
+```
+windows: 
+node_modules\ngrok\bin\ngrok authtoken 1W89zmpCwCB9c7gbZfw45KYDQyA_5GA7961H8L5A5TP94vTgK
+node_modules\ngrok\bin\ngrok http -subdomain=lastbid 3000
+```

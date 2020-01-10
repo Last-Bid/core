@@ -1,0 +1,16 @@
+.product {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #ADADAD;
+    border-radius: 2px;
+}
+
+.product-box__image {
+    /*width: inherit;*/
+    /*height: inherit;*/
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
