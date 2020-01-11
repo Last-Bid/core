@@ -1,0 +1,5 @@
+Things to do:
+
+- Decide on Brand Colours
+- Refine Logo Concepts in /marketing/branding/logo into favicon, svgs, etc for web use.
+
