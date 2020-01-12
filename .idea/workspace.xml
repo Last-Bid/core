@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2261ecc-0443-4c39-852a-54b4c7c6100f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578347676899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding apps to install&#10;+ User&#10;+ Api&#10;Abstracting BaseUser class in User app&#10;Replaced username field with email and altered custom manager">
+      <created>1578829454348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578829454348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,7 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating django base in backend&#10;requirements.txt created from pip freeze" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating django base in backend&#10;requirements.txt created from pip freeze" />
+    <MESSAGE value="Adding apps to install&#10;+ User&#10;+ Api&#10;Abstracting BaseUser class in User app&#10;Replaced username field with email and altered custom manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding apps to install&#10;+ User&#10;+ Api&#10;Abstracting BaseUser class in User app&#10;Replaced username field with email and altered custom manager" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1578347895786">
@@ -136,10 +136,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="483" y="201" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578347877840" />
-    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1578347676581">
+    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1578829454098">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578347676581" />
+    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578829454098" />
     <state x="242" y="117" width="1482" height="872" key="DiffContextDialog" timestamp="1578347578273">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -148,22 +148,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="324" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578347806261" />
-    <state width="1377" height="260" key="GridCell.Tab.0.bottom" timestamp="1578512493017">
+    <state width="904" height="278" key="GridCell.Tab.0.bottom" timestamp="1578829531003">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
-    <state width="1377" height="260" key="GridCell.Tab.0.center" timestamp="1578512493017">
+    <state width="904" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578829531003" />
+    <state width="904" height="278" key="GridCell.Tab.0.center" timestamp="1578829531003">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
-    <state width="1377" height="260" key="GridCell.Tab.0.left" timestamp="1578512493016">
+    <state width="904" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578829531003" />
+    <state width="904" height="278" key="GridCell.Tab.0.left" timestamp="1578829531003">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493016" />
-    <state width="1377" height="260" key="GridCell.Tab.0.right" timestamp="1578512493017">
+    <state width="904" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578829531003" />
+    <state width="904" height="278" key="GridCell.Tab.0.right" timestamp="1578829531003">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
+    <state width="904" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578829531003" />
     <state x="482" y="188" key="SettingsEditor" timestamp="1578345125417">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
