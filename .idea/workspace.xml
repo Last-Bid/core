@@ -2,22 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2261ecc-0443-4c39-852a-54b4c7c6100f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp-site/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/temp-site/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/user/models.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Vu4Qv4C9BeGZdvhw268GDgPPaG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/temp-site/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/manage.py" />
+    <property name="settings.editor.selected.configurable" value="aws" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -27,15 +49,38 @@
       <recent name="C:\Users\GGPC\Desktop\Github\core\temp-site" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="LastBid backend" type="PythonConfigurationType" factoryName="Python">
+      <module name="core" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -52,6 +97,14 @@
       <workItem from="1578089634722" duration="1104000" />
       <workItem from="1578298194167" duration="5040000" />
     </task>
+    <task id="LOCAL-00001" summary="Creating django base in backend&#10;requirements.txt created from pip freeze">
+      <created>1578347676899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578347676899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +122,59 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creating django base in backend&#10;requirements.txt created from pip freeze" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating django base in backend&#10;requirements.txt created from pip freeze" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#Notifications" timestamp="1578347895786">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#Notifications/67.27.1853.1053@67.27.1853.1053" timestamp="1578347895786" />
+    <state x="483" y="201" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578347877840">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="483" y="201" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578347877840" />
+    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2" timestamp="1578347676581">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="599" y="149" width="777" height="807" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1578347676581" />
+    <state x="242" y="117" width="1482" height="872" key="DiffContextDialog" timestamp="1578347578273">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="242" y="117" width="1482" height="872" key="DiffContextDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578347578273" />
+    <state x="776" y="324" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578347806261">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="324" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578347806261" />
+    <state width="1377" height="260" key="GridCell.Tab.0.bottom" timestamp="1578512493017">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
+    <state width="1377" height="260" key="GridCell.Tab.0.center" timestamp="1578512493017">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="260" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
+    <state width="1377" height="260" key="GridCell.Tab.0.left" timestamp="1578512493016">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="260" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493016" />
+    <state width="1377" height="260" key="GridCell.Tab.0.right" timestamp="1578512493017">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1377" height="260" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578512493017" />
+    <state x="482" y="188" key="SettingsEditor" timestamp="1578345125417">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="188" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578345125417" />
+    <state x="588" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1578348002887">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="289" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1578348002887" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1578827581026">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1578827581026" />
   </component>
 </project>
