@@ -71,6 +71,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Lastbid Custom */
+.hidden {
+	visibility: hidden;
+}
+
 /* Basic */
 
 	@-ms-viewport {

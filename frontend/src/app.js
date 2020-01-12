@@ -3,14 +3,44 @@ import { useSelector } from 'react-redux';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { function } from './state/actions'
 import './app.css';
+import Product from './components/products/product';
+import {GridList, GridListTile} from "@material-ui/core";
+import GridListTileBar from "@material-ui/core/GridListTileBar";
+import IconButton from "@material-ui/core/IconButton";
 
 function App() {
     const vals = useSelector(state => state);
+    const product = {
+        img : "https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg",
+        alt : "Air Pods",
+        title : "Air Pods",
+        author : "260"
+    };
+
     return (
         <div className="App">
-            <p>
-                State Values: {JSON.stringify(vals)}
-            </p>
+            <GridList cellHeight={160} className={""} cols={3}>
+                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
+                    <img src={product.img} alt={product.alt}/>
+                    <GridListTileBar
+                        title={product.title}
+                        subtitle={<span>Price: ${product.author}</span>}
+                        actionIcon={
+                            <IconButton aria-label={`info about ${product.title}`} className={product.icon}>
+                                {/*<InfoIcon/>*/}
+                            </IconButton>
+                        }
+                    />
+                </GridListTile>
+                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
+                    <img src={product.img} alt={product.alt}/>
+                </GridListTile>
+
+                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
+                    <img src={product.img} alt={product.alt}/>
+                </GridListTile>
+            </GridList>
+            {/*<Product/>*/}
         </div>
     );
 }
