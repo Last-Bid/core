@@ -7,10 +7,10 @@
     border-radius: 2px;
 }
 
-.product-box__image {
-    /*width: inherit;*/
-    /*height: inherit;*/
-    width: auto;
-    height: auto;
-    overflow: hidden;
-}
+/*.product-box__image {*/
+/*    !*width: inherit;*!*/
+/*    !*height: inherit;*!*/
+/*    width: auto;*/
+/*    height: auto;*/
+/*    overflow: hidden;*/
+/*}*/

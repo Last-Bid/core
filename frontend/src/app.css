@@ -1,0 +1,27 @@
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2285a2;
+}
+
+.header-logo {
+    color: #DDDDDD;
+    font-family: Arial;
+    font-size: 36px;
+}
+
+.product-box {
+    height: 260px;
+    background-color: #444444;
+}
+
+.product-box__card {
+    height: 200px;
+    background-color: #777777;
+}
+
+.product-box__image {
+    width: 100%;
+}

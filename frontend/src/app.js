@@ -7,6 +7,8 @@ import Product from './components/products/product';
 import {GridList, GridListTile} from "@material-ui/core";
 import GridListTileBar from "@material-ui/core/GridListTileBar";
 import IconButton from "@material-ui/core/IconButton";
+import './lib/css/foundation.css';
+
 
 function App() {
     const vals = useSelector(state => state);
@@ -19,28 +21,27 @@ function App() {
 
     return (
         <div className="App">
-            <GridList cellHeight={160} className={""} cols={3}>
-                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
-                    <img src={product.img} alt={product.alt}/>
-                    <GridListTileBar
-                        title={product.title}
-                        subtitle={<span>Price: ${product.author}</span>}
-                        actionIcon={
-                            <IconButton aria-label={`info about ${product.title}`} className={product.icon}>
-                                {/*<InfoIcon/>*/}
-                            </IconButton>
-                        }
-                    />
-                </GridListTile>
-                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
-                    <img src={product.img} alt={product.alt}/>
-                </GridListTile>
-
-                <GridListTile key={"https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg"} cols={1}>
-                    <img src={product.img} alt={product.alt}/>
-                </GridListTile>
-            </GridList>
-            {/*<Product/>*/}
+            <div className="grid-container full">
+                <div className="grid-x grid-margin-x">
+                    <div className="header cell ">
+                        <div className="header-logo">
+                            LASTBID
+                        </div>
+                    </div>
+                </div>
+                <div className="grid-x">
+                    <div className="cell small-2"></div>
+                    <div className="product-box cell small-2">
+                        <div className="product-box__card">
+                            <img className="product-box__image" src="https://images.tmsandbox.co.nz/photoserver/thumb/4549935.jpg"/>
+                        </div>
+                    </div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="cell small-2"></div>
+                </div>
+            </div>
         </div>
     );
 }
