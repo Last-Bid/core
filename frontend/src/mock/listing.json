@@ -1,0 +1,116 @@
+{
+    "ListingId": 2148497352,
+    "Title": "Moa-090 Moa Fillet, A Grade, Approx 2.3kg",
+    "Category": "0187-2192-2676-",
+    "StartPrice": 27.2300,
+    "BuyNowPrice": 40.6900,
+    "StartDate": "/Date(1578820245717)/",
+    "EndDate": "/Date(1578993045717)/",
+    "ListingLength": null,
+    "HasGallery": true,
+    "AsAt": "/Date(1578990680827)/",
+    "CategoryPath": "/Antiques-collectables/Art-deco-retro/Fashion-beauty",
+    "PhotoId": 4549195,
+    "IsNew": true,
+    "RegionId": 15,
+    "Region": "West Coast",
+    "SuburbId": 79,
+    "Suburb": "Hokitika",
+    "HasReserve": true,
+    "HasBuyNow": true,
+    "NoteDate": "/Date(0)/",
+    "CategoryName": "Fashion & beauty",
+    "ReserveState": 2,
+    "Attributes": [],
+    "OpenHomes": [],
+    "MinimumNextBidAmount": 27.2300,
+    "PriceDisplay": "$27.23",
+    "AdditionalData": {
+        "BulletPoints": [],
+        "Tags": []
+    },
+    "Member": {
+        "MemberId": 4000099,
+        "Nickname": "moa",
+        "DateAddressVerified": "/Date(1380798000000)/",
+        "DateJoined": "/Date(1317034800000)/",
+        "UniqueNegative": 2,
+        "UniquePositive": 39,
+        "FeedbackCount": 37,
+        "IsAddressVerified": true,
+        "Suburb": "Hokitika",
+        "Region": "West Coast",
+        "IsAuthenticated": true
+    },
+    "Body": "Moa Fillet, A Grade, Approx 2.3kg, Price per kg.\r\nStart = 27.23, Reserve = 35.82, Buy Now = 40.69",
+    "Photos": [
+        {
+            "Key": 4549195,
+            "Value": {
+                "Thumbnail": "https://images.tmsandbox.co.nz/photoserver/thumb/4549195.jpg",
+                "List": "https://images.tmsandbox.co.nz/photoserver/lv2/4549195.jpg",
+                "Medium": "https://images.tmsandbox.co.nz/photoserver/med/4549195.jpg",
+                "Gallery": "https://images.tmsandbox.co.nz/photoserver/gv/4549195.jpg",
+                "Large": "https://images.tmsandbox.co.nz/photoserver/tq/4549195.jpg",
+                "FullSize": "https://images.tmsandbox.co.nz/photoserver/full/4549195.jpg",
+                "PhotoId": 4549195,
+                "OriginalWidth": 500,
+                "OriginalHeight": 500
+            }
+        }
+    ],
+    "AllowsPickups": 1,
+    "ShippingOptions": [
+        {
+            "Type": 4,
+            "Price": 6,
+            "Method": "Pony Express",
+            "ShippingId": 4
+        },
+        {
+            "Type": 4,
+            "Price": 11.5,
+            "Method": "Overnight within NZ",
+            "ShippingId": 5
+        },
+        {
+            "Type": 4,
+            "Price": 25,
+            "Method": "International courier",
+            "ShippingId": 6
+        },
+        {
+            "Type": 2,
+            "Price": 0,
+            "Method": "I intend to pick-up",
+            "ShippingId": 2
+        }
+    ],
+    "PaymentOptions": "Cash, NZ Bank Deposit",
+    "CanAddToCart": false,
+    "EmbeddedContent": {},
+    "SupportsQuestionsAndAnswers": true,
+    "PaymentMethods": [
+        {
+            "Id": 4,
+            "Name": "Cash"
+        },
+        {
+            "Id": 1,
+            "Name": "NZ Bank Deposit"
+        }
+    ],
+    "BoundaryImage": {
+        "Thumbnail": null,
+        "List": null,
+        "Medium": null,
+        "Gallery": null,
+        "Large": null,
+        "FullSize": null,
+        "PhotoId": 0
+    },
+    "RenderOptions": [
+        2
+    ],
+    "AreaOfBusiness": 1
+}

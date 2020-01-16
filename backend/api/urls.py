@@ -5,5 +5,5 @@ from .views import *
 router = routers.DefaultRouter()
 
 urlpatterns = [
-    path('/', include(router.urls))
+    path('', include(router.urls))
 ]

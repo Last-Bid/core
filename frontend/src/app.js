@@ -3,14 +3,45 @@ import { useSelector } from 'react-redux';
 // import { useSelector, useDispatch } from 'react-redux';
 // import { function } from './state/actions'
 import './app.css';
+import Product from './components/products/product';
+import {GridList, GridListTile} from "@material-ui/core";
+import GridListTileBar from "@material-ui/core/GridListTileBar";
+import IconButton from "@material-ui/core/IconButton";
+import './lib/css/foundation.css';
+
 
 function App() {
     const vals = useSelector(state => state);
+    const product = {
+        img : "https://trademe.tmcdn.co.nz/photoserver/tq/1217991283.jpg",
+        alt : "Air Pods",
+        title : "Air Pods",
+        author : "260"
+    };
+
     return (
         <div className="App">
-            <p>
-                State Values: {JSON.stringify(vals)}
-            </p>
+            <div className="grid-container full">
+                <div className="grid-x grid-margin-x">
+                    <div className="header cell ">
+                        <div className="header-logo">
+                            LASTBID
+                        </div>
+                    </div>
+                </div>
+                <div className="grid-x">
+                    <div className="cell small-2"></div>
+                    <div className="product-box cell small-2">
+                        <div className="product-box__card">
+                            <img className="product-box__image" src="https://images.tmsandbox.co.nz/photoserver/thumb/4549935.jpg"/>
+                        </div>
+                    </div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="product-box cell small-2">Product</div>
+                    <div className="cell small-2"></div>
+                </div>
+            </div>
         </div>
     );
 }
