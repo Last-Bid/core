@@ -1,27 +1,93 @@
-.header {
-    height: 60px;
+.app-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2285a2;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
-.header-logo {
-    color: #DDDDDD;
-    font-family: Arial;
-    font-size: 36px;
+.app-header {
+    width: 100vw;
+    max-height: 40px;
+    background-color: #FAFAFA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
-.product-box {
-    height: 260px;
-    background-color: #444444;
+.app-header-logo {
+    max-height: 40px;
+    margin: 10px 0 0 10px;
 }
 
-.product-box__card {
-    height: 200px;
-    background-color: #777777;
+.app-body {
+    display: flex;
 }
 
-.product-box__image {
+.app-product-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px 10px 20px;
+    width: calc(100vw - 40px);
+    height: calc(100vh - 80px )
+}
+
+.app-product {
+    height: 65%;
+    background-color: #FAFAFA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.app-product-description {
+    height: 35%;
+    background-color: #FAFAFA;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+}
+
+.app-product-image {
+    display: flex;
     width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.app-product-image::before {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(	44, 54, 94, 0.50), rgba(0, 0,0, 0));
+    content: "";
+}
+
+.app-product-image::after {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to bottom, rgba(	44, 54, 94, 0.50), rgba(0, 0,0, 0));
+    content: "";
+}
+
+/* Product */
+.product-timer {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #2E4052;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.app-product-description {
+    color: #00A1DB
 }
