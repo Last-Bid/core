@@ -6,25 +6,28 @@ import product from './assets/product.jpg';
 
 function App() {
     return (
-        <div className="app-container">
-            <div className="app-header">
-                <img className="app-header-logo" src={logo} alt="logo"/>
-            </div>
-            <div className="app-body">
-                <div className="app-product-container">
-                    <div className="app-product">
-                        <div className="app-product-image">
-                            <img className="product-image" src={product} alt="product"/>
+        <div className="app-frame">
+            <div className="app-wrapper">
+                <div className="app-header">
+                </div>
+                <div className="app-body">
+                    <div className="product-wrapper">
+                        <img src={product} alt='product' className="product-image"/>
+                    </div>
+                    <div className="product-description">
+                        <div className="product-description__name">
+                        Product Name
                         </div>
-                        <div className="product-pricing">
-
-                        </div>
-                        <div className="product-timer">
-                            05:12
+                        <div className="product-description__description">
+                        Product Description
                         </div>
                     </div>
-                    <div className="app-product-description">
-                        Description goes here
+                    <div className="product-button-container">
+
+                        <div className="product-reject-button">
+                        </div>
+                        <div className="product-reject-button">
+                        </div>
                     </div>
                 </div>
             </div>
