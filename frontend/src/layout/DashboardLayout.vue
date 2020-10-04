@@ -6,14 +6,8 @@
       title="Argon"
     >
       <template slot="links">
-        <sidebar-item
-          :link="{
-            name: 'Dashboard',
-            icon: 'ni ni-tv-2 text-primary',
-            path: '/dashboard'
-          }"
-        />
-
+        <sidebar-item :link="{name: 'Products', icon: 'ni ni-bulb-61 text-primary', path: '/products'}"/>
+        <sidebar-item :link="{name: 'Dashboard', icon: 'ni ni-tv-2 text-primary', path: '/dashboard'}"/>
         <sidebar-item :link="{name: 'Icons', icon: 'ni ni-planet text-blue', path: '/icons'}"/>
         <sidebar-item :link="{name: 'Maps', icon: 'ni ni-pin-3 text-orange', path: '/maps'}"/>
         <sidebar-item :link="{name: 'User Profile', icon: 'ni ni-single-02 text-yellow', path: '/profile'}"/>
