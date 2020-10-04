@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2261ecc-0443-4c39-852a-54b4c7c6100f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/marketing/branding/info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +24,20 @@
   <component name="ProjectId" id="1Vu4Qv4C9BeGZdvhw268GDgPPaG" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/temp-site/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/src/assets" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bill Li\Documents\Github\core\frontend\src\assets" />
       <recent name="C:\Users\GGPC\Desktop\Github\core\temp-site\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Bill Li\Documents\Github\core\frontend\src\assets" />
+      <recent name="C:\Users\Bill Li\Documents\Github\core\frontend\src\mock" />
+      <recent name="C:\Users\Bill Li\Documents\Github\core\frontend\src" />
+      <recent name="C:\Users\Bill Li\Documents\Github\core\frontend\src\lib" />
       <recent name="C:\Users\Bill Li\Documents\Github\core\marketing" />
-      <recent name="C:\Users\GGPC\Desktop\Github\core\temp-site" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +68,16 @@
       <workItem from="1578648775160" duration="840000" />
       <workItem from="1578649637969" duration="1018000" />
       <workItem from="1578654587450" duration="1781000" />
-      <workItem from="1578720827492" duration="600000" />
+      <workItem from="1578720827492" duration="668000" />
+      <workItem from="1578897502130" duration="459000" />
+      <workItem from="1578901592106" duration="2732000" />
+      <workItem from="1578990775952" duration="506000" />
+      <workItem from="1580602646108" duration="4353000" />
+      <workItem from="1581719405230" duration="315000" />
+      <workItem from="1581725055383" duration="42000" />
+      <workItem from="1581729861732" duration="1516000" />
+      <workItem from="1582925968440" duration="600000" />
+      <workItem from="1600999457110" duration="1046000" />
     </task>
     <servers />
   </component>
