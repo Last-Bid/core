@@ -81,7 +81,7 @@
 
   // Tables
   import SocialTrafficTable from './Dashboard/SocialTrafficTable';
-  import PageVisitsTable from './Dashboard/PageVisitsTable';
+  import PageVisitsTable from './Dashboard/RecentPurchasesTable';
 
   export default {
     components: {
