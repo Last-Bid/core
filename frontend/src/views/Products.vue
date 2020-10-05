@@ -1,6 +1,12 @@
 <template>
     <div>
         <base-header type="gradient-success" class="pb-6 pb-8 pt-5 pt-md-8">
+            <!-- Carousel -->
+            <div class="row">
+              <div class="col-xl-3 col-lg-6">
+                <Carousel :cards="cards"></Carousel>
+              </div>
+            </div>
             <!-- Card stats -->
             <div class="row">
                 <div class="col-xl-3 col-lg-6">
@@ -82,9 +88,11 @@
   // Tables
   import SocialTrafficTable from './Dashboard/SocialTrafficTable';
   import PageVisitsTable from './Dashboard/RecentPurchasesTable';
+  import Carousel from "@/components/Carousel";
 
   export default {
     components: {
+      Carousel,
       PageVisitsTable,
       SocialTrafficTable,
     },
@@ -102,6 +110,12 @@
           },
           extraOptions: chartConfigs.blueChartOptions,
         },
+        cards: [
+          {
+            header: "test card 1",
+            footer: "test footer 1"
+          }
+        ],
         redBarChart: {
           chartData: {
             labels: ['Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
